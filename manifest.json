@@ -3,6 +3,10 @@
   "description": "Adds copy button / edit on codepen button to Stackoverflow codes",
   "version": "1.0",
   "permissions": [],
+  "background": {
+    "scripts": ["bg.js"]
+  },
+  "icons": { "16": "cs.png" },
   "content_scripts": [{
     "matches": ["*://stackoverflow.com/questions/*"],
     "js": ["cs.js"],
