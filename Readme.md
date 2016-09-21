@@ -9,4 +9,4 @@
 
 
 ### Clicking `Edit on codepen` posts code in `<pre>` to [codepen.io](http://codepen.io)
-![alt tag](https://pbs.twimg.com/media/Cs4ivJgWYAUqZFC.jpg)
+![alt tag](https://pbs.twimg.com/media/Cs4iv6RW8AAEGsy.jpg)
