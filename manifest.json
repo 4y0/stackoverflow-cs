@@ -1,0 +1,13 @@
+{
+  "name": "Stackoverflow Copier",
+  "description": "Adds copy button / edit on codepen button to Stackoverflow codes",
+  "version": "1.0",
+  "permissions": [],
+  "content_scripts": [{
+    "matches": ["*://stackoverflow.com/questions/*"],
+    "js": ["cs.js"],
+    "run_at": "document_end",
+    "all_frames": true
+    }],
+  "manifest_version": 2
+}
