@@ -1,5 +1,7 @@
 # A simple content script injector that makes one-click copy (and open in codepen) for code blocks possible on stackoverflow.
 
+Download extension on [webstore](https://chrome.google.com/webstore/detail/stackoverflow-co-en/kcckkenmfeecdbgcjmjamadefkjmjlca?hl=en-US) 
+
 ### Content script injected into page causes `Edit on codepen` and `Copy code` buttons to be appended to each `<pre>` block
 ![alt tag](https://pbs.twimg.com/media/Cs4iuUlWgAA3eGZ.jpg)
 
