@@ -20,6 +20,7 @@ copy_textarea.style.backgroundColor = 'rgba(0,0,0,0.75)';
 
 //********* Text Area Defaults ************
 
+
 document.body.appendChild(copy_textarea);
 
 
@@ -46,7 +47,7 @@ pre_elements
 			  [
 			    '<form action="http://codepen.io/pen/define" method="POST" target="_blank">',
 			    '<input type="hidden" name="data" value=\''+codepen_data_string+'\'>',
-			    ' <input type="submit" value="Edit on Code Pen">',
+			    ' <input type="submit" value="Edit on Code Pen" style="margin-right:15px;">',
 			    '<input type="button" value="Copy code" id="copy_code_cex_btn" data-code-id="code_'+i+'">',
 			    '</form>'
 			  ].join(''); 
