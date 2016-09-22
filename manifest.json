@@ -1,7 +1,7 @@
 {
   "name": "stackoverflow co-en",
   "description": "A simple content script injector that makes one-click copy (and open in codepen) for code blocks possible on stackoverflow.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "permissions": [],
   "background": {
     "scripts": ["bg.js"]

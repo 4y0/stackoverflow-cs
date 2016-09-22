@@ -26,8 +26,21 @@ document.body.appendChild(copy_textarea);
 
 //********* Init Pre elements and inject buttons ************
 
-pre_elements
-	.forEach( function (pre_element, i) {
+function nodeListForeach (nodeList, iteratorFunction) {
+
+	var list_length = nodeList.length;
+	var index;
+	var node;
+
+	for( index = 0; index < list_length; index++)
+	{
+		node = nodeList[index];
+		iteratorFunction(node, index);
+	} 
+}
+
+/*pre_elements*/
+	/*.*/nodeListForeach(pre_elements, function (pre_element, i) {
 
 		  pre_element.setAttribute('contenteditable', true);
 		  pre_element.setAttribute('id', 'code_' + i);
