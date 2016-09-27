@@ -40,7 +40,8 @@ function nodeListForeach (nodeList, iteratorFunction) {
 }
 
 /*pre_elements*/
-	/*.*/nodeListForeach(pre_elements, function (pre_element, i) {
+	/*.*/
+nodeListForeach(pre_elements, function (pre_element, i) {
 
 		  pre_element.setAttribute('contenteditable', true);
 		  pre_element.setAttribute('id', 'code_' + i);
@@ -52,10 +53,12 @@ function nodeListForeach (nodeList, iteratorFunction) {
 		  codepen_data.js           = pre_element.innerText.replace(/"/g, "&​quot;").replace(/'/g, "&apos;");
 		  codepen_data_string       = JSON.stringify(codepen_data);
 
+		  
 		  //Only inject buttons if pre element has enough text
+          var outerhtml = "";
 		  if(pre_element.innerText.length > 50) 
 		  {
-			 var outerhtml = "";
+              
 			  outerhtml += 
 			  [
 			    '<form action="http://codepen.io/pen/define" method="POST" target="_blank">',
